@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url(/src/fonts/Montserrat/static/Montserrat-Regular.ttf); }
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url(/src/fonts/Montserrat/static/Montserrat-Bold.ttf); }
+
+@font-face {
+  font-family: 'RobotoMono';
+  src: url(/src/fonts/Roboto_Mono/static/RobotoMono-Regular.ttf); }
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif; }
+
+.container {
+  max-width: 964px;
+  padding: 0 20px;
+  margin: 0 auto; }
+
+.header {
+  text-align: center;
+  background: #0099FF;
+  position: relative;
+  margin-bottom: 230px; }
+  .header__bg {
+    position: absolute;
+    left: 0;
+    bottom: -150px;
+    width: 100%;
+    z-index: -1;
+    background-image: url("/src/img/wave.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 150px; }
+  .header__title {
+    padding-top: 150px;
+    font-family: 'Montserrat-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 117px;
+    color: #ffffff; }
+  .header__arrow {
+    padding-top: 40px; }
+
+.s-info__title {
+  font-family: 'Montserrat-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 54px;
+  text-align: center;
+  color: #000000; }
+
+.s-info__subtitle {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 59px;
+  text-align: center; }
+
+.s-info-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 75px; }
+  .s-info-detail__paragraph {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000; }
+  .s-info-detail__span {
+    display: block;
+    margin-top: 28px;
+    font-family: 'Montserrat-Regular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000; }
+  .s-info-detail__qr {
+    width: 160px;
+    height: 160px; }
+
+.footer {
+  margin-top: 115px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+  background: #005C99; }
+  .footer__author {
+    font-family: 'RobotoMono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff; }
